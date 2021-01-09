@@ -1,0 +1,22 @@
+.sign-up {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+mat-card {
+  width: 25rem;
+  align-self: center;
+  padding: 1rem 2rem;
+}
+mat-form-field {
+  width: 100%;
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+button {
+  width: 5rem;
+  margin-top: 2rem;
+}
