@@ -1,0 +1,11 @@
+<div class="movies">
+  <div class="movie-list">
+    <mat-card class="example-card" *ngFor="let movie of movieData">
+      <img mat-card-image>
+      <mat-card-footer>
+        <p class="mat-subheading-2">{{movie.movieName}}</p>
+        <div class="stars" style="--rating: {{movie.starRating}};"></div>
+      </mat-card-footer>
+    </mat-card>
+  </div>
+</div>
