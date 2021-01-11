@@ -1,4 +1,17 @@
 <div class="movies">
+  <div class="cover">
+    <img src="../../assets/f68ef00d93f9a41aae474444e66443f3" alt="">
+    <div class="layer"></div>
+    <input placeholder="Search" autofocus>
+    <div class="task-bar">
+      <div class="sort">
+        <p>Sort:</p>
+        <button mat-button>By name</button>
+        <button mat-button>By year</button>
+        <button mat-button>By rating</button>
+      </div>
+    </div>
+  </div>
   <div class="movie-list">
     <mat-card class="example-card" *ngFor="let movie of movieData">
       <img mat-card-image>
